@@ -150,7 +150,7 @@ If you want different colors or fonts, you can edit `styles.css`. The main color
 - `#3498db` - The blue accent color
 - `#2c3e50` - The dark blue/gray navigation bar
 
-To change colors:
+To change these and other colors:
 1. Visit [color-hex.com/color-palettes](https://www.color-hex.com/color-palettes/) to browse color palette ideas
 2. Pick colors you like and copy their hex codes
 3. Open `styles.css` in your repository
