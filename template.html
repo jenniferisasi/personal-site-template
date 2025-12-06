@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title$</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html" $if(page)$$if(page.about)$class="active"$endif$$endif$>About</a></li>
+            <li><a href="./projects-en.html" $if(page)$$if(page.projects-en)$class="active"$endif$$endif$>Projects (EN)</a></li>
+            <li><a href="./projects-es.html" $if(page)$$if(page.projects-es)$class="active"$endif$$endif$>Proyectos (ES)</a></li>
+            <li><a href="./cv.html" $if(page)$$if(page.cv)$class="active"$endif$$endif$>CV</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        $body$
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
