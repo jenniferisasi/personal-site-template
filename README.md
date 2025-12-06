@@ -150,7 +150,15 @@ If you want different colors or fonts, you can edit `styles.css`. The main color
 - `#3498db` - The blue accent color
 - `#2c3e50` - The dark blue/gray navigation bar
 
-You can search for these and replace them with any other color codes you want.
+To change colors:
+1. Visit [color-hex.com/color-palettes](https://www.color-hex.com/color-palettes/) to browse color palette ideas
+2. Pick colors you like and copy their hex codes
+3. Open `styles.css` in your repository
+4. Search for `#3498db` and replace it with your new primary color
+5. Search for `#2c3e50` and replace it with your new dark color
+6. Commit the changes
+
+Your site will update automatically in 2-3 minutes!
 
 ## Want to Add More Project Pages?
 
