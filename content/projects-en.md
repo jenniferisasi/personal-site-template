@@ -8,7 +8,9 @@ A collection of projects I've worked on, showcasing my skills and interests.
 
 **Date:** January 2024 - Present
 
-Description of your first project. Explain what it does, the problem it solves, and the technologies used.
+![Project 1 Screenshot](./images/project1.jpg)
+
+Description of your first project. Explain what it does, the problem it solves, and the technologies used. Replace the image above with your actual project screenshot.
 
 **Technologies:** Python, React, PostgreSQL
 
@@ -16,6 +18,10 @@ Description of your first project. Explain what it does, the problem it solves, 
 - Feature 1
 - Feature 2
 - Feature 3
+
+**Screenshots:**
+
+![Project 1 Detail View](./images/project1-detail.jpg)
 
 [View Project →](https://github.com/yourusername/project1)
 
@@ -25,7 +31,9 @@ Description of your first project. Explain what it does, the problem it solves, 
 
 **Date:** June 2023 - December 2023
 
-Description of your second project. Include the context, your role, and the impact or results achieved.
+![Project 2 Screenshot](./images/project2.jpg)
+
+Description of your second project. Include the context, your role, and the impact or results achieved. Add your own project images to showcase your work.
 
 **Technologies:** JavaScript, Node.js, MongoDB
 
@@ -34,6 +42,8 @@ Description of your second project. Include the context, your role, and the impa
 - Achievement 2
 - Achievement 3
 
+![Project 2 Dashboard](./images/project2-dashboard.jpg)
+
 [View Project →](https://github.com/yourusername/project2)
 
 ---
@@ -41,6 +51,8 @@ Description of your second project. Include the context, your role, and the impa
 ## Project Title 3
 
 **Date:** March 2023 - May 2023
+
+![Project 3 Screenshot](./images/project3.jpg)
 
 Description of your third project. Highlight challenges overcome and what you learned from this experience.
 
