@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #f8de7e;
+    color: #3498db;
 }
 
 main {
@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-    color: #e8675c;
+    color: #34495e;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
