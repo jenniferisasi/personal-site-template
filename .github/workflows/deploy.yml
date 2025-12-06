@@ -38,17 +38,17 @@ jobs:
             --metadata title="About Me" \
             --metadata page="about"
           
-          # Convert projects (English)
-          pandoc content/projects-en.md -o _site/projects-en.html \
+          # Convert projects (main language)
+          pandoc content/projects-main.md -o _site/projects-main.html \
             --template=./template.html \
             --metadata title="Projects" \
-            --metadata page="projects-en"
+            --metadata page="projects-main"
           
-          # Convert projects (Spanish)
-          pandoc content/projects-es.md -o _site/projects-es.html \
+          # Convert projects (alternative language)
+          pandoc content/projects-alt.md -o _site/projects-alt.html \
             --template=./template.html \
-            --metadata title="Proyectos" \
-            --metadata page="projects-es"
+            --metadata title="Projects" \
+            --metadata page="projects-alt"
           
           # Convert CV
           pandoc content/cv.md -o _site/cv.html \
