@@ -8,7 +8,9 @@ Una colección de proyectos en los que he trabajado, mostrando mis habilidades e
 
 **Fecha:** Enero 2024 - Presente
 
-Descripción de tu primer proyecto. Explica qué hace, el problema que resuelve y las tecnologías utilizadas.
+![Captura del Proyecto 1](./images/project1.jpg)
+
+Descripción de tu primer proyecto. Explica qué hace, el problema que resuelve y las tecnologías utilizadas. Reemplaza la imagen con capturas reales de tu proyecto.
 
 **Tecnologías:** Python, React, PostgreSQL
 
@@ -16,6 +18,10 @@ Descripción de tu primer proyecto. Explica qué hace, el problema que resuelve 
 - Característica 1
 - Característica 2
 - Característica 3
+
+**Capturas de Pantalla:**
+
+![Vista Detallada del Proyecto 1](./images/project1-detail.jpg)
 
 [Ver Proyecto →](https://github.com/tuusuario/proyecto1)
 
@@ -25,7 +31,9 @@ Descripción de tu primer proyecto. Explica qué hace, el problema que resuelve 
 
 **Fecha:** Junio 2023 - Diciembre 2023
 
-Descripción de tu segundo proyecto. Incluye el contexto, tu rol y el impacto o resultados logrados.
+![Captura del Proyecto 2](./images/project2.jpg)
+
+Descripción de tu segundo proyecto. Incluye el contexto, tu rol y el impacto o resultados logrados. Añade tus propias imágenes para mostrar tu trabajo.
 
 **Tecnologías:** JavaScript, Node.js, MongoDB
 
@@ -34,6 +42,8 @@ Descripción de tu segundo proyecto. Incluye el contexto, tu rol y el impacto o 
 - Logro 2
 - Logro 3
 
+![Panel de Control del Proyecto 2](./images/project2-dashboard.jpg)
+
 [Ver Proyecto →](https://github.com/tuusuario/proyecto2)
 
 ---
@@ -41,6 +51,8 @@ Descripción de tu segundo proyecto. Incluye el contexto, tu rol y el impacto o 
 ## Título del Proyecto 3
 
 **Fecha:** Marzo 2023 - Mayo 2023
+
+![Captura del Proyecto 3](./images/project3.jpg)
 
 Descripción de tu tercer proyecto. Destaca los desafíos superados y lo que aprendiste de esta experiencia.
 
