@@ -1,0 +1,74 @@
+name: Convert Markdown to HTML and Deploy
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+      
+      - name: Create output directory
+        run: mkdir -p _site
+      
+      - name: Convert Markdown to HTML
+        run: |
+          # Convert about page (index)
+          pandoc content/about.md -o _site/index.html \
+            --template=template.html \
+            --metadata title="About Me" \
+            --metadata page="about"
+          
+          # Convert projects (English)
+          pandoc content/projects-en.md -o _site/projects-en.html \
+            --template=template.html \
+            --metadata title="Projects" \
+            --metadata page="projects-en"
+          
+          # Convert projects (Spanish)
+          pandoc content/projects-es.md -o _site/projects-es.html \
+            --template=template.html \
+            --metadata title="Proyectos" \
+            --metadata page="projects-es"
+          
+          # Convert CV
+          pandoc content/cv.md -o _site/cv.html \
+            --template=template.html \
+            --metadata title="CV" \
+            --metadata page="cv"
+      
+      - name: Copy static files
+        run: |
+          cp styles.css _site/
+          cp photo.jpg _site/ 2>/dev/null || echo "No photo.jpg found, skipping"
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
