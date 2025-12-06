@@ -38,6 +38,15 @@ Everything you need to edit is in the `content` folder. To update anything:
 
 That's it. The website rebuilds itself automatically.
 
+### To edit the footer
+
+1. Navigate to template.html
+2. Find the line about the footer and change the content after `;`:
+    ```
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+    ```
 
 ## What's in Each Folder
 
