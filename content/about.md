@@ -1,7 +1,7 @@
 # About Me
 
 <div class="about-container">
-<img src="./photo.jpg" alt="Your Name" class="profile-photo">
+<img src="./images/photo.jpg" alt="Your Name" class="profile-photo">
 </div>
 
 ## Hello! I'm [Your Name]
