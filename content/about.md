@@ -8,12 +8,7 @@
 
 Welcome to my personal website! I'm a [your profession/role] passionate about [your interests].
 
-<!-- 
-====================================================================
-OPTIONAL: PhD PROGRESS TRACKER
-====================================================================
-To display your PhD progress, delete the line that says "<!--" above 
-and the line that says "-->" below this section.
+<!-- OPTIONAL: PhD PROGRESS TRACKER To display your PhD progress, delete the line that says "<!--" above and the line that says "-->" below this section.
 
 <div class="phd-progress">
   <div class="phd-header">
@@ -63,9 +58,8 @@ and the line that says "-->" below this section.
   </div>
 </div>
 
-====================================================================
 END OF OPTIONAL SECTION
-====================================================================
+
 -->
 
 ### My Background
