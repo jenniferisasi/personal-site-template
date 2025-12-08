@@ -8,6 +8,66 @@
 
 Welcome to my personal website! I'm a [your profession/role] passionate about [your interests].
 
+<!-- 
+====================================================================
+OPTIONAL: PhD PROGRESS TRACKER
+====================================================================
+To display your PhD progress, delete the line that says "<!--" above 
+and the line that says "-->" below this section.
+
+<div class="phd-progress">
+  <div class="phd-header">
+    <h3 class="phd-title">PhD in Computer Science</h3>
+    <span class="phd-year">Year 3 of 5</span>
+  </div>
+  <div class="phd-institution">University Name | Expected 2026</div>
+  
+  <div class="progress-bar-container">
+    <div class="progress-label">
+      <span>Overall Progress</span>
+      <span>60%</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: 60%;">60%</div>
+    </div>
+  </div>
+
+  <div class="milestone completed">
+    <div class="milestone-title">Coursework</div>
+    <div class="milestone-status">✓ Completed</div>
+  </div>
+
+  <div class="milestone completed">
+    <div class="milestone-title">Qualifying Exams</div>
+    <div class="milestone-status">✓ Passed</div>
+  </div>
+
+  <div class="milestone completed">
+    <div class="milestone-title">Research Proposal</div>
+    <div class="milestone-status">✓ Approved</div>
+  </div>
+
+  <div class="milestone in-progress">
+    <div class="milestone-title">Dissertation Research</div>
+    <div class="milestone-status">⚡ In Progress</div>
+  </div>
+
+  <div class="milestone">
+    <div class="milestone-title">Publications (2 of 3 required)</div>
+    <div class="milestone-status">◯ In Progress</div>
+  </div>
+
+  <div class="milestone">
+    <div class="milestone-title">Dissertation Defense</div>
+    <div class="milestone-status">◯ Upcoming</div>
+  </div>
+</div>
+
+====================================================================
+END OF OPTIONAL SECTION
+====================================================================
+-->
+
 ### My Background
 
 Write a paragraph about your background, education, and how you got started in your field.
