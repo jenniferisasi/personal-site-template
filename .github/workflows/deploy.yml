@@ -72,3 +72,40 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Convert Markdown to HTML
+        run: |
+          # Convert about page (index)
+          pandoc content/about.md -o _site/index.html \
+            --from markdown+raw_html \
+            --template=./template.html \
+            --metadata title="About Me" \
+            --metadata page="about"
+          
+          # Convert projects (main language)
+          pandoc content/projects-main.md -o _site/projects-main.html \
+            --from markdown+raw_html \
+            --template=./template.html \
+            --metadata title="Projects" \
+            --metadata page="projects-main"
+          
+          # Convert projects (alternative language)
+          pandoc content/projects-alt.md -o _site/projects-alt.html \
+            --from markdown+raw_html \
+            --template=./template.html \
+            --metadata title="Projects" \
+            --metadata page="projects-alt"
+          
+          # Convert timeline
+          pandoc content/timeline.md -o _site/timeline.html \
+            --from markdown+raw_html \
+            --template=./template.html \
+            --metadata title="Timeline" \
+            --metadata page="timeline"
+          
+          # Convert CV
+          pandoc content/cv.md -o _site/cv.html \
+            --from markdown+raw_html \
+            --template=./template.html \
+            --metadata title="CV" \
+            --metadata page="cv"
