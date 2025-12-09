@@ -60,6 +60,7 @@ jobs:
         run: |
           cp styles.css _site/
           cp -r images _site/ 2>/dev/null || echo "No images folder found, skipping"
+          cp about-options.html _site/ 2>/dev/null || echo "No about-options.html found, skipping"
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
