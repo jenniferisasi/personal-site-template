@@ -50,7 +50,7 @@ GitHub will copy all these files to your new repository. Then you can edit them 
 
 This template offers **two options** for your About page (the homepage). Choose the one that fits your needs.
 
-**[👉 View Visual Comparison of Both Options](./about-options.html)**
+**[👉 View Visual Comparison of Both Options](https://jenniferisasi.github.io/personal-site-template/about-options.html)**
 
 ### Option A: Simple About Page (Default - Currently Active)
 
