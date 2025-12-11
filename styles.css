@@ -32,8 +32,14 @@ nav a {
     transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #3498db;
+nav a:hover,
+nav a:focus {
+    color: #009eb0;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    outline: 2px solid #009eb0;
+    outline-offset: 2px;
 }
 
 main {
