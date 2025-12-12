@@ -13,7 +13,7 @@ body {
 
 /* top bar on menu */
 nav {
-    background-color: #04d1db;
+    background-color: #21B8FF;
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -80,7 +80,7 @@ p {
 }
 
 a {
-    color: #3498db;
+    color: #04d1db;
     text-decoration: none;
 }
 
