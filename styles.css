@@ -79,8 +79,9 @@ p {
     margin-bottom: 1rem;
 }
 
+/* links color */
 a {
-    color: #04d1db;
+    color: #3498db;
     text-decoration: none;
 }
 
