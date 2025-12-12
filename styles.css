@@ -255,9 +255,9 @@ footer {
     color: #18703d;
 }
 
-/* Title of milestone in progress in orange */
+/* Title of milestone in progress in dark orange or brick */
 .milestone.in-progress .milestone-title {
-    color: #b37007;
+    color: #A75D33;
 }
 
 .milestone-status {
