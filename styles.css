@@ -208,13 +208,13 @@ footer {
 }
 
 .phd-year {
-    color: #04d1db;
+    color: #2c3e50;
     font-weight: 600;
     font-size: 0.95rem;
 }
 
 .phd-institution {
-    color: #7f8c8d;
+    color: #2c3e50;
     font-size: 0.95rem;
     margin-bottom: 1rem;
 }
@@ -270,7 +270,7 @@ footer {
 }
 
 .milestone.in-progress .milestone-status {
-    color: #b37007;
+    color: #A75D33;
 }
 
 .progress-bar-container {
