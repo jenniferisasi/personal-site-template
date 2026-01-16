@@ -18,6 +18,7 @@ The site has four pages:
 - [What's in Each Folder](#whats-in-each-folder)
 - [Optional Features](#optional-features)
   - [PhD Progress Tracker](#phd-progress-tracker)
+  - [Adding Social/Contact Icons](#contact-me)
 - [Adding a New Project](#adding-a-new-project)
 - [Adding Images](#adding-images)
 - [Basic Markdown Formatting](#basic-markdown-formatting)
@@ -265,6 +266,138 @@ If you're using the PhD progress tracker, you can customize its colors and styli
 - **Success Green:** Progress bar `#10b981`, completed `#059669`
 
 After making changes, commit the file and your site will update in 2-3 minutes!
+
+### Contact Me 
+
+You can add professional icons at the bottom of your About page to link to your email, ORCID, LinkedIn, GitHub, and other profiles.
+
+**To add social icons:**
+
+1. Open `about.html`
+2. Add the Font Awesome stylesheet to the `<head>` section (right after the `<title>` line):
+
+```html
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+```
+
+3. Find the "Get In Touch" section near the end (before `</main>`)
+4. Replace it with this code:
+
+```html
+<h3>Connect With Me</h3>
+
+<div class="social-icons">
+    <a href="mailto:your.email@example.com" class="social-icon" title="Email me">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>
+    
+    <a href="https://orcid.org/0000-0000-0000-0000" class="social-icon" target="_blank" rel="noopener noreferrer" title="ORCID Profile">
+        <i class="fa-brands fa-orcid"></i>
+        <span>ORCID</span>
+    </a>
+    
+    <a href="https://linkedin.com/in/yourprofile" class="social-icon" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+    </a>
+    
+    <a href="https://github.com/yourusername" class="social-icon" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+    </a>
+    
+    <a href="https://twitter.com/yourhandle" class="social-icon" target="_blank" rel="noopener noreferrer" title="Twitter Profile">
+        <i class="fa-brands fa-twitter"></i>
+        <span>Twitter</span>
+    </a>
+</div>
+```
+
+5. Update all the `href` links with your actual email and profile URLs
+
+6. Open `styles.css` and add this at the end (before the `@media` section):
+
+```css
+/* Social Icons Styles */
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 2rem 0;
+    border-top: 2px solid #e0e0e0;
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    min-width: 80px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+    background-color: #f0f0f0;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    outline: 2px solid #0073e6;
+    outline-offset: 2px;
+}
+
+.social-icon i {
+    font-size: 2.5rem;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover i,
+.social-icon:focus i {
+    color: #0073e6;
+    transform: scale(1.15);
+}
+
+.social-icon span {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+
+.social-icon:hover span,
+.social-icon:focus span {
+    color: #0073e6;
+}
+```
+
+7. Commit your changes
+
+**To add more icons:**
+
+Visit [fontawesome.com/icons](https://fontawesome.com/icons), search for the icon you want, and copy the code. Common academic icons:
+
+- **Email:** `<i class="fa-solid fa-envelope"></i>`
+- **ORCID:** `<i class="fa-brands fa-orcid"></i>`
+- **LinkedIn:** `<i class="fa-brands fa-linkedin"></i>`
+- **GitHub:** `<i class="fa-brands fa-github"></i>`
+- **Twitter:** `<i class="fa-brands fa-twitter"></i>`
+- **Google Scholar:** `<i class="fa-solid fa-graduation-cap"></i>`
+- **ResearchGate:** `<i class="fa-brands fa-researchgate"></i>`
+- **Website:** `<i class="fa-solid fa-globe"></i>`
+
+To add a new icon, copy an existing `<a class="social-icon">` block, update the icon code and link, then paste it into your icons section.
+
+**To remove icons:**
+
+Delete the entire `<a class="social-icon">...</a>` block for any service you don't use.
 
 ## Adding a New Project
 
